@@ -1,0 +1,11 @@
+.container{
+    position: absolute;
+    top: 100px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height:fit-content;
+}
+.setposition{   
+    border: 1px solid red;
+    margin: auto;
+}

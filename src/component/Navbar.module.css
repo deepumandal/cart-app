@@ -1,0 +1,31 @@
+.container{
+    /* border : 1px solid red; */
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 0;
+    right: 0;
+    left: 0;    
+}
+h2{
+  color:   rgb(126, 106, 82);
+}
+.outer{
+    width: 88%;
+    /* border:  1px solid red; */
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links>a{
+    margin:5px 10px;
+    text-decoration: none;
+    color:rgb(126, 106, 82)
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0%;
+}

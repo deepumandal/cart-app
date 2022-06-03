@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "Catogory": "male",
+      "items": [
+        {
+          "name": "tshirt",
+          "price": 200,
+          "id": 1
+        },
+        {
+          "name": "tshirt",
+          "price": 200,
+          "id": 1
+        }
+      ]
+    },
+    {
+        "id": 2,
+        "Catogory": "female",
+        "items": [
+          {
+            "name": "lengha",
+            "price": 1200,
+            "id": 2
+          },
+          {
+            "name": "lengha",
+            "price": 1200,
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "Catogory": "kids",
+        "items": [
+          {
+            "name": "toycar",
+            "price": 50,
+            "id": 3
+          },
+           {
+            "name": "toycar",
+            "price": 50,
+            "id": 3
+          }
+        ]
+      }
+  ]
+}
