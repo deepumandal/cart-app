@@ -1,11 +1,72 @@
 .container{
     position: absolute;
     top: 100px;
-    /* border: 1px solid red; */
-    width: 100%;
+    border: 1px solid red;
+   margin: auto;
+   width: 100%;
     height:fit-content;
 }
 .setposition{   
     border: 1px solid red;
     margin: auto;
+    height: 500px;
+}
+
+@media   ( min-width: 750px) {
+    .setposition {
+      /* background-color: black; */
+      width: 98%;
+      margin: auto;
+    }
+  }
+
+  @media   ( min-width: 1100px) {
+    .setposition {
+      /* background-color: black; */
+      width: 1100px;
+      margin: auto;
+    }
+  }
+  @media   ( max-width: 750px) {
+    .setposition {
+      /* background-color: black; */
+      width: 100%;
+      margin: auto;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+/* signup login code starts here  */
+form{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 250px;
+    gap: 20px;
+    flex-direction: column;
+    margin: auto;
+}
+#submit{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+form>h1{
+    margin-bottom: 0px;
+}
+
+
+/* homepage css starts here  */
+
+.slider{
+
 }

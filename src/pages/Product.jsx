@@ -3,29 +3,38 @@ import { useParams } from 'react-router-dom'
 
 const Product = () => {
   const [data, setData] = useState([])
-  const {item} =useParams()
+  const news =useParams()
+
   useEffect(() => {
-    setData(JSON.parse(item)) 
-    console.log( JSON.parse(item))
+if(news['*']){
+  setData(news['*'])
+}else{
+  
+   setData(JSON.parse(news.item)) 
+   console.log( JSON.parse(news.item))
+}
     
   }, [])
- // console.log(data)
+  
 
+if(news['*']){
 
-  return (
-    <div>
-
-
-{data.map(e=>{
-  return( <div key={e.id}> 
-  {e.name} || {e.price}
+  return   (
+    
+    <div>  <img src={news[`*`].substring(1)}/>
+   </div>
+   )
+} else {
+   return( <div> {data.map(e=>{
+    return( <div key={e.id}> 
+    {e.name} || {e.price}
+    </div>)
+  })}
   </div>)
-})}
+}
 
-
-
-    </div>
-  )
+  
+  
 }
 
 export default Product

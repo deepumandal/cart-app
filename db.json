@@ -48,5 +48,34 @@
           }
         ]
       }
-  ]
+  ],
+  "userpass": [
+    {"name":"nomercy", "pass": "123456" },
+    {"name":"nomercy", "pass": "123456" }
+
+  ],
+  "homepage":{
+    "slider":[
+      {"img":""},
+      {"img":""},
+      {"img":""}
+    ],
+    "images":[
+      {"img":"https://images.unsplash.com/photo-1654205052607-cb8e4134f7c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+      {"img":"https://media.istockphoto.com/photos/shot-of-two-young-technicians-using-a-digital-tablet-while-working-in-picture-id1347880350?b=1&k=20&m=1347880350&s=170667a&w=0&h=c3RSwzdIo7Pt-LAh-IeXIDzPorMFrcrDYuTCpC4IRZk="},
+      {"img":"https://media.istockphoto.com/photos/processor-chip-tech-environment-blockchain-concept-picture-id1347310666?b=1&k=20&m=1347310666&s=170667a&w=0&h=WHT_LTQSjwn-gwA34mlAjSwhVPjA2zIXjOMnXequQLA="},
+      {"img":"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"},
+      {"img":"https://images.unsplash.com/photo-1654205052607-cb8e4134f7c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+      {"img":"https://media.istockphoto.com/photos/shot-of-two-young-technicians-using-a-digital-tablet-while-working-in-picture-id1347880350?b=1&k=20&m=1347880350&s=170667a&w=0&h=c3RSwzdIo7Pt-LAh-IeXIDzPorMFrcrDYuTCpC4IRZk="},
+      {"img":"https://media.istockphoto.com/photos/processor-chip-tech-environment-blockchain-concept-picture-id1347310666?b=1&k=20&m=1347310666&s=170667a&w=0&h=WHT_LTQSjwn-gwA34mlAjSwhVPjA2zIXjOMnXequQLA="},
+      {"img":"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"},
+      {"img":"https://images.unsplash.com/photo-1654205052607-cb8e4134f7c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"},
+      {"img":"https://media.istockphoto.com/photos/shot-of-two-young-technicians-using-a-digital-tablet-while-working-in-picture-id1347880350?b=1&k=20&m=1347880350&s=170667a&w=0&h=c3RSwzdIo7Pt-LAh-IeXIDzPorMFrcrDYuTCpC4IRZk="},
+      {"img":"https://media.istockphoto.com/photos/processor-chip-tech-environment-blockchain-concept-picture-id1347310666?b=1&k=20&m=1347310666&s=170667a&w=0&h=WHT_LTQSjwn-gwA34mlAjSwhVPjA2zIXjOMnXequQLA="},
+      {"img":"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"}
+
+    ]
+
+
+  }
 }

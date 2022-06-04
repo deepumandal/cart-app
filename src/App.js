@@ -10,6 +10,7 @@ import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Aboutus from "./pages/Aboutus";
 import Contactus from "./pages/contectus";
+import Signup from "./pages/Signup";
 function App() {
   return (
     <div className="App">
@@ -31,8 +32,10 @@ products page m joh v /:( value   ) hogi product page m voh para m kuch
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category" element={<Category />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/products/*" element={<Products />} />
         <Route path="/products/:id/:item" element={<Product />} />
+        <Route path="/product/*" element={<Product />} />
+        <Route path="/signup" element={ <Signup/> }/>
         <Route path="/login" element={<Login />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/contactus" element={<Contactus />} />
